@@ -1,6 +1,6 @@
 # M1 Recognition
 
-> Status: not started (first priority in Phase 1) | Last updated: 2026-08-16 | Framework: `../01-framework/research-framework.md`
+> Status: protocol frozen (`blind-test-protocol.md` v1.0); first baseline pending execution | Last updated: 2026-09-01 | Framework: `../01-framework/research-framework.md`
 
 ## 1. Definition
 
@@ -34,7 +34,8 @@ Variable control: measure the baseline first, then intervene with one content va
 
 ## 5. Current Conclusions
 
-To be researched. (Format per entry: `[date][grade] one-sentence conclusion — source / experiment id`)
+- [2026-09][B] llms.txt adoption: ~5.6–5.9% of the top 10,000 sites deploy a valid file (two independent tallies concur); third-party analysis finds no significant correlation with AI citations — the M1-RQ3 evidence chain (low adoption + unproven effect + no platform dependence) is two-thirds complete
+- [2026-09][A] Google's official clarification (2026-07): llms.txt is not a Google Search ranking factor and confers no visibility or ranking benefit — Google's position is on record; first-party OpenAI/Anthropic statements are still missing; RQ3 can enter partial adjudication
 
 ## 6. Link to Commercialization
 
@@ -42,6 +43,7 @@ Recognition is the foundation of every external promise. If M1 shows that struct
 
 ## 7. Next Steps
 
-1. Design and freeze the blind-test prompt set (~20 questions) and scoring sheet; store as `blind-test-protocol.md` in this directory
-2. Run the first baseline on 2–3 sample entities (own business + a well-known competitor + an unknown small site)
-3. Collect first-party statements on the llms.txt controversy (OpenAI, Anthropic, Google each required)
+1. Execute the first baseline: core 15 questions × 5 platforms (retrieval mode) + 15 questions × 2 platforms (parameter mode), per the execution matrix in `blind-test-protocol.md` Section 5, within 2026-09
+2. Verify the gold-standard fact sheets before execution (`blind-test-protocol.md` Section 3; researcher confirms line by line)
+3. Collect first-party OpenAI and Anthropic statements on the llms.txt controversy (Google is in hand) to complete the M1-RQ3 adjudication
+4. When an own-business entity appears, add it as E4 (slot reserved) and retest with the same structure

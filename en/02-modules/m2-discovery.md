@@ -1,12 +1,12 @@
 # M2 Discovery
 
-> Status: not started (second priority in Phase 1) | Last updated: 2026-08-16 | Framework: `../01-framework/research-framework.md`
+> Status: protocol frozen (`panel-question-set.md` v1.0); first baseline pending execution | Last updated: 2026-09-01 | Framework: `../01-framework/research-framework.md`
 
 ## 1. Definition
 
 When a user retrieves information through an agent, the target entity enters the agent's candidate set and appears in the final answer. Discovery parallels SEO/SEM in classic marketing, but the allocation mechanism differs: search grants rank and clicks; AI answers grant mentions and citations — and the answer often dissolves the query, leaving no click to rely on.
 
-State of the field: an academic framework already exists. The 2024 GEO paper (Princeton, Georgia Tech, Allen Institute, IIT Delhi) introduced GEO-Bench (10,000 queries × 25 domains) [2026-08][B]; a 2026 framework separates "citation selection" from "citation absorption," distinguishing being listed as a source from content actually entering the answer [2026-08][B] arxiv 2604.25707. This module builds on that work and focuses on empirical measurement in Chinese-language and own-category contexts.
+State of the field: an academic framework already exists. The 2024 GEO paper (Princeton, Georgia Tech, Allen Institute, IIT Delhi) introduced GEO-Bench (10,000 queries × 25 domains) [2026-08][B]; a 2026 framework separates "citation selection" from "citation absorption," distinguishing being listed as a source from content actually entering the answer [2026-08][B] arxiv 2604.25707. Three methodological additions (2026-09 scan): AI-visibility measurement requires repeated sampling and confidence intervals rather than single-run point estimates (arxiv 2603.08924 [A]); a unified benchmark for GEO rank-manipulation attacks (arxiv 2605.29107 [A]; black-box content rewrites can match gradient attacks); and a systematic survey establishing the three-tier metric hierarchy "mention / citation / absorption" (arxiv 2607.14035 [A]). This module builds on that work and focuses on empirical measurement in Chinese-language and own-category contexts.
 
 ## 2. Research Questions
 
@@ -19,7 +19,7 @@ State of the field: an academic framework already exists. The 2024 GEO paper (Pr
 
 ## 3. Method and Experiment Protocol (draft)
 
-Prompt-panel testing: construct 50–100 genuine purchase-intent questions for the target category (layered informational / comparative / transactional), executed monthly on a fixed platform set. Track: mention rate (does the answer name the entity), citation share (citations of the entity / all citations), cited-domain distribution, answer position (first recommendation / mixed / mention only). Follow the two-stage framework of arxiv 2604.25707 and separately score "citation absorption" — whether language, data, or structure actually enter the answer.
+Prompt-panel testing: construct 50–100 genuine purchase-intent questions for the target category (layered informational / comparative / transactional), executed monthly on a fixed platform set. Track: mention rate (does the answer name the entity), citation share (citations of the entity / all citations), cited-domain distribution, answer position (first recommendation / mixed / mention only). Follow the two-stage framework of arxiv 2604.25707 and separately score "citation absorption" — whether language, data, or structure actually enter the answer. Variance control and stability reporting follow arxiv 2603.08924. Execution details frozen in `panel-question-set.md` (category: robot vacuums; 60 questions; statistical definitions and change control).
 
 Crawler-log analysis: for owned or sample sites, track agent-crawler request volume and UA mix monthly, and correlate with panel results.
 
@@ -35,7 +35,11 @@ Crawler-log analysis: for owned or sample sites, track agent-crawler request vol
 
 ## 5. Current Conclusions
 
-To be researched.
+- [2026-09][A] Adobe Analytics (130+ top North American retailers, 1T+ visits): AI-referral traffic to US retail sites grew +393% YoY in Q1 2026; AI-visitor conversion ran 42% higher than non-AI (a record, 2026-03) — the AI channel has moved from directional trend to scaled fact
+- [2026-09][B] Ahrefs: only 38% of AI Overview citations come from Google's top-10 organic results (76% in mid-2025); 80% of LLM citations fall outside Google's top 100 — the SEO-rank-to-AI-citation correlation keeps weakening; first quantitative anchor for M2-RQ4
+- [2026-09][B] Goodie panel (41 B2B brand sites, 2025.08–2026.05): ChatGPT's share of B2B AI referrals fell 89.1%→62.6%; Claude 1.4%→18.5%, Gemini 2.4%→10.6%, Perplexity 3.1%→7.3% — AI referrals are multi-engine; single-platform optimization strategies depreciate faster
+- [2026-09][A] arxiv 2603.08924: single-run AI-visibility point estimates are sample estimates; repeated sampling plus confidence intervals are the minimum methodological bar; content changes can move citation share materially — this module's panel protocol is designed accordingly (variance sample of 6 questions × 3 runs)
+- [2026-09][A] arxiv 2604.25707 (geo-citation-lab, 602 prompts, 21,143 citations): citation behavior diverges by platform — Perplexity and Google cite broadly, ChatGPT cites fewer but with higher average influence — a reproducible reference gradient that the Chinese-language panel results will be compared against
 
 ## 6. Link to Commercialization
 
@@ -43,6 +47,7 @@ Citation share is this generation's "market share." If M2 yields a reproducible 
 
 ## 7. Next Steps
 
-1. Choose the first study category; build the layered question set as `panel-question-set.md` in this directory
-2. Set up the monthly panel record (platform × question × citation); first round measures the distribution of 5 leading entities
-3. Append GEO academic tracking items (arxiv, follow-ups to GEO-Bench) to `../04-intel/monitoring-sources.md`
+1. Execute the first baseline: core 30 questions × 3 platforms (ChatGPT, Perplexity, Doubao) + variance sample of 6 questions × 3 runs, per `panel-question-set.md` Section 4, within 2026-09
+2. After the first round, set up the monthly record and summary templates (entity × layer × platform matrix) — the first item of the 2026-10 monthly cycle
+3. Build the domain attribution table: official sites / flagship stores / vertical review sites for T1–T9, a prerequisite for citation-share computation
+4. Re-verify Google's original documentation on AI Overviews citation rules (closing H6, M2-RQ2)

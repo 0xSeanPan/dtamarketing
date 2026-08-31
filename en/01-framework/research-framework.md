@@ -70,7 +70,7 @@ The four stages are strictly one-directional: misrecognition makes discovery mea
 | MCP | Model Context Protocol — the tool-integration protocol originated by Anthropic, now a mainstream standard |
 | A2A | Agent2Agent — protocol direction for agents discovering and collaborating with each other |
 | ACP | Agentic Commerce Protocol — the agent-commerce protocol led by OpenAI and Stripe, spanning discovery, ordering, and payment; live in ChatGPT production [2026-08][A] Stripe official blog (stripe.com/blog/10-lessons) |
-| UCP | Universal Commerce Protocol — the commerce protocol led by Google and Shopify, in production since January 2026 [2026-08][B] third-party technical documentation; official home page to verify |
+| UCP | Universal Commerce Protocol — the commerce protocol led by Google and Shopify; official site ucp.dev verified, current version v2026-08-25, expanding across verticals [2026-09][A] GitHub releases |
 | x402 | The agent-native payment protocol by Coinbase, built on HTTP status code 402 |
 | Machine loyalty | An agent's repeated selection of the same vendor, driven by fulfillment quality, price stability, trust scores, and organizational memory |
 
@@ -87,10 +87,11 @@ Terminology notes (why these words):
 
 - H1: Structured, data-backed, well-attributed content is cited by generative engines significantly more often than conventional marketing copy. Background: the 2024 GEO paper (Princeton, Georgia Tech, Allen Institute, IIT Delhi; GEO-Bench, 10,000 queries × 25 domains) reports that citations, quotations, and statistics raise visibility, while keyword stuffing is the worst strategy [2026-08][B]
 - H2: The name and description quality of an MCP server materially affects its invocation rate (experiment to be designed)
-- H3: AI-search citations concentrate heavily on a few high-authority knowledge and community sites (Wikipedia, Reddit, GitHub, vertical authorities); entering those sources is higher-leverage than on-site optimization (to be verified)
+- H3: AI-search citations concentrate heavily on a few high-authority knowledge and community sites (Wikipedia, Reddit, GitHub, vertical authorities); entering those sources is higher-leverage than on-site optimization. Directionally supported: Ahrefs data shows Trustpilot/G2 domains draw 3× more ChatGPT citations and Reddit/Quora presence lifts citation rates 4× [2026-09][B]; pending replication on our own panel
 - H4: In agent channels, conversion decisions are far more sensitive to "transparent pricing + reliable fulfillment + structured comparability" than to brand and visual design (to be verified)
-- H5: Mainstream platforms are forming agent-native app directories and product listings (MCP directories, in-ChatGPT commerce, Google AI Mode); early entrants enjoy a distribution window of roughly 12–24 months (to be verified)
-- H6: Google states that no special markup or schema unlocks AI Overviews — inclusion rests on content quality and authority [2026-08][B] Google Search documentation (to be re-checked against the original in M2)
+- H5: Mainstream platforms are forming agent-native app directories and product listings (MCP directories, in-ChatGPT commerce, Google AI Mode); early entrants enjoy a distribution window of roughly 12–24 months. Observational support: UCP's multi-vertical expansion, ACS reaching Google, and the Taobao catalog connecting to the Qwen app [2026-09][A] — directory density keeps rising; the window's start date awaits the M3 panel
+- H6: Google states that no special markup or schema unlocks AI Overviews — inclusion rests on content quality and authority. Directionally supported: Google's 2026-07 clarification that llms.txt is not a ranking factor [2026-09][B]; Ahrefs shows only 38% of AI Overview citations come from the organic top 10 [2026-09][B]
+- H7: Chinese AI-shopping-guide channels will replicate the CPS affiliate-commission model — rates set first, renegotiated at scale (signal: Doubao × Douyin Laike operating a 12% standalone commission [2026-08][C]; contrast Perplexity's merchant program at 0%) — to be verified by monthly tracking of Chinese platforms' AI-guide commission terms (M3/M4)
 
 ## 7. Scope
 

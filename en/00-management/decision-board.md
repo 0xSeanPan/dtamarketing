@@ -8,7 +8,7 @@
 |---|---|---|---|---|
 | D1 | Which first commercialization entry: AI-visibility diagnostics service / monitoring tool / content assets / MCP development service / protocol integration? | M1+M2 baselines; first scoring round of the opportunity matrix (Phase 3) | Awaiting research | First review Nov 2026 |
 | D2 | Invest in MCP tool development and directory listings? | H2 verification (effect of tool descriptions on invocation); MCP directory data-visibility survey | Awaiting research | Oct 2026 |
-| D3 | Apply for ACP / UCP merchant listings (own or on behalf of clients)? | Protocol timeline; admission-cost research (M3-RQ3) | Awaiting research | Oct 2026 |
+| D3 | Apply for ACP / UCP merchant listings (own or on behalf of clients)? | Protocol timeline; admission-cost research (M3-RQ3) | Awaiting research | Oct 2026. Re-review trigger logged 2026-09-01: UCP v2026-08-25 multi-vertical expansion, ACS reaching Google, x402 scaling — camp activity above expectations; keep the Oct 2026 review |
 
 ## Decision Record Format
 

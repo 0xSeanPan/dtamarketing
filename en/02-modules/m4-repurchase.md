@@ -1,6 +1,6 @@
 # M4 Repurchase and Trust
 
-> Status: not started (second priority in Phase 2) | Last updated: 2026-08-16 | Framework: `../01-framework/research-framework.md`
+> Status: not started (second priority in Phase 2; monthly protocol intel logged) | Last updated: 2026-09-01 | Framework: `../01-framework/research-framework.md`
 
 ## 1. Definition
 
@@ -37,7 +37,10 @@ Corpus-offset experiment: inject one negative review into a controlled corpus an
 
 ## 5. Current Conclusions
 
-To be researched.
+- [2026-09][B] HUMAN Security (2026-07): agent-browser session mix — Perplexity Comet 47.13%, Claude in Chrome 24%, Atlas 15.5%, ChatGPT Agent 6.1%; 76% of agent activity hits product and search routes — "agents as shopping visitors" is now a measurable, routine traffic class
+- [2026-09][A] x402 moved under Linux Foundation governance with 75.41M transactions per month (see `m3-adoption.md` conclusions) — machine payments graduated from protocol experiment to scaled operation; neutral foundation governance signals long-term neutrality for the repurchase infrastructure
+- [2026-09][A] UCP v2026-08-25 builds in 3DS2 payment security and structured shopping constraints — the trust layer is being embedded in the protocol itself rather than bolted on (M4-RQ4)
+- [2026-09][A] Adobe: AI-visitor conversion runs 42% higher than non-AI (2026-03; see M2 conclusions) — an AI-channel customer-quality premium; on the repurchase side, agent-referred traffic converts above the channel average
 
 ## 6. Link to Commercialization
 
@@ -48,3 +51,4 @@ M4 answers whether the business compounds. If repurchase is driven mainly by ful
 1. Read the Stripe agentic-commerce engineering retrospective closely; extract a citable failure-mode list
 2. Collect public data and interviews for ACP merchants (Etsy, URBN)
 3. Map existing agent-identity and trust-scoring schemes
+4. Monthly: track x402/UCP merchant-side settlement and trust readings, plus Adobe and HUMAN quarterly updates, to quantify the trajectory of machine payments and agent traffic

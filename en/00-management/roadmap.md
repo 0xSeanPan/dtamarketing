@@ -1,13 +1,13 @@
 # Research Roadmap
 
-> Last updated: 2026-08-16 | Usage: read this page first at every research session to confirm the current phase; update status marks when done
+> Last updated: 2026-09-01 | Usage: read this page first at every research session to confirm the current phase; update status marks when done
 
 ## Phase Overview
 
 | Phase | Time | Goal | Status |
 |---|---|---|---|
-| Phase 0 Framework & baseline | Mid–late Aug 2026 (~2 weeks) | Knowledge base in place (done); first rounds of the M1 blind test and the M2 panel baseline | In progress |
-| Phase 1 Recognition & discovery deep dives | Sep 2026 (~4 weeks) | M1 and M2 move from "not started" to "reproducible method + first conclusions"; test H1, H3, H6 | Not started |
+| Phase 0 Framework & baseline | Mid–late Aug 2026 (~2 weeks) | Knowledge base in place (done); first rounds of the M1 blind test and the M2 panel baseline | Wrapping up (protocols frozen; first-round execution remaining) |
+| Phase 1 Recognition & discovery deep dives | Sep 2026 (~4 weeks) | M1 and M2 move from "not started" to "reproducible method + first conclusions"; test H1, H3, H6 | In progress (protocol frozen = method ready) |
 | Phase 2 Adoption & repurchase deep dives | Oct 2026 (~4 weeks) | M3 and M4 methods and first conclusions; test H2, H4; protocol timeline takes shape | Not started |
 | Phase 3 Commercialization mapping | Nov 2026 (~2–4 weeks) | First committed investments in the skill portfolio; first scoring and trade-off round on the opportunity matrix | Not started |
 | Continuous operation | Long term | Weekly intel scan, monthly panel retest, quarterly decision review | Not started |
@@ -19,10 +19,10 @@ Rationale: M1/M2 first — both are self-testable, cheap, and aligned with where
 | # | Task | Deliverable | Status |
 |---|---|---|---|
 | 0-1 | Knowledge base structure and core documents | All framework documents | Done (2026-08-16) |
-| 0-2 | Pick blind-test sample entities (own business + known competitor + unknown small site) | M1 `blind-test-protocol.md` | Not started |
-| 0-3 | Freeze the blind-test prompt set and scoring sheet | Same | Not started |
-| 0-4 | Pick the first M2 category; build a 50–100 question panel set | M2 `panel-question-set.md` | Not started |
-| 0-5 | Run the first baseline rounds (M1 blind test + M2 panel) | Baseline data tables + research-log entries | Not started |
+| 0-2 | Pick blind-test sample entities | M1 `blind-test-protocol.md` | Done (2026-09-01): three-tier notability design — Dyson (high) / Roborock (mid) / this project's site (none); own-business slot reserved |
+| 0-3 | Freeze the blind-test prompt set and scoring sheet | Same | Done (2026-09-01): 30 frozen questions + six-dimension rubric + gold-standard fact sheets |
+| 0-4 | Pick the first M2 category; build the panel question set | M2 `panel-question-set.md` | Done (2026-09-01): robot-vacuum category, 60 questions (20 informational / 25 comparative / 15 transactional) |
+| 0-5 | Run the first baseline rounds (M1 blind test + M2 panel) | Baseline data tables + research-log entries | In progress: protocols frozen; first-round execution (M1 core 15 questions × 5 platforms; M2 core 30 questions × 3 platforms) to be completed manually within 2026-09 |
 
 ## Gate Criteria (Phase 0 → Phase 1)
 

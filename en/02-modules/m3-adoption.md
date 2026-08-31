@@ -1,6 +1,6 @@
 # M3 Adoption
 
-> Status: not started (first priority in Phase 2) | Last updated: 2026-08-16 | Framework: `../01-framework/research-framework.md`
+> Status: not started (first priority in Phase 2; monthly protocol intel logged) | Last updated: 2026-09-01 | Framework: `../01-framework/research-framework.md`
 
 ## 1. Definition
 
@@ -37,7 +37,13 @@ Decision-variable interviews: collect public agent product documentation, develo
 
 ## 5. Current Conclusions
 
-To be researched.
+- [2026-09][A] UCP v2026-08-25 released (GitHub releases; official site ucp.dev verified): multi-vertical architecture rework, Grocery vertical ready, 3DS2 payment security, independent capability versioning; Lodging technical committee formed 2026-08-11 (Amadeus, Booking.com, Expedia, Google, Hilton, Marriott, Trip.com) — vertical expansion is faster than the August assessment
+- [2026-09][A] Stripe Sessions 2026: the Agentic Commerce Suite now supports Google (selling inside AI Mode and the Gemini app); platform partners Wix, BigCommerce, WooCommerce; merchants include Kate Spade, Best Buy, Coach, Fanatics — the ACP camp has landed Google-side distribution; the two camps are in direct competition
+- [2026-09][A] x402 at scale: the Linux Foundation announced the operational launch of the x402 Foundation on 2026-07-14 (protocol contributed by Coinbase); site-reported last-30-days figures: 75.41M transactions, $24.24M volume, 94.06K buyers, 22K sellers; Coinbase x402 Agent Payments opened to businesses (USDC in/out + CDP SDK)
+- [2026-09][A] Alibaba official (2026-05-11): the full Taobao catalog (~4 billion SKUs) is connected to the Qwen app, with a Qwen-powered shopping assistant inside the Taobao app (natural-language browsing, comparison, ordering, delivery management) — the largest Chinese "catalog → AI assistant" sample
+- [2026-09][B] Tencent Yuanbao × JD.com (2026-07-15): after a Yuanbao answer, one tap jumps to a JD mini-program for purchase across all categories — the second public Chinese "answer → transaction" loop (alongside Doubao × Douyin)
+- [2026-09][A] OpenAI (2026-08-21): ChatGPT's connector directory ranking now prioritizes connectors still actively used after installation — the first official disclosure of a directory ranking signal: usage retention > install count; direct evidence for M3-RQ2
+- [2026-09][A] MCP: current spec version 2026-07-28; official roadmap updated 2026-08-22 (agentic messaging primitives, HTTP transport unification and hardening, agent identity and enterprise security) — the tool ecosystem's center of gravity is shifting from "integration" to "identity and messaging primitives"
 
 ## 6. Link to Commercialization
 
@@ -45,6 +51,7 @@ M3 determines the skills needed to "productize capabilities as agent-invocable a
 
 ## 7. Next Steps
 
-1. Survey admission rules and data visibility of mainstream MCP directories (are install counts public?)
+1. Survey admission rules and data visibility of mainstream MCP directories (ChatGPT directory ranking logic is now officially disclosed — see conclusion 6; MCP Registry data visibility to be checked)
 2. Design a minimal A/B experiment on tool descriptions
-3. Start `protocol-tracker.md` (ACP / UCP / x402 / domestic moves)
+3. Start `protocol-tracker.md` (ACP / UCP / x402 / domestic moves) at the 2026-10 monthly cycle; this month's changes are already in the conclusions
+4. Research merchant-side admission paths for Chinese platforms: Yuanbao × JD, Qwen × Taobao (linked to decision-board D3)
