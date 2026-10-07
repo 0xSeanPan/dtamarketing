@@ -19,6 +19,8 @@ $pages = @(
     @{ id = 'm2p';    gz = '模块研究';   tz = 'M2 面板问题集'; fz = '02-模块\面板测试问题集.md';      ge = 'Modules';               te = 'M2 Panel Question Set'; fe = 'en\02-modules\panel-question-set.md' },
     @{ id = 'm3';     gz = '模块研究';   tz = 'M3 被采用';    fz = '02-模块\M3-被智能体采用.md';     ge = 'Modules';               te = 'M3 Adopted';          fe = 'en\02-modules\m3-adoption.md' },
     @{ id = 'm4';     gz = '模块研究';   tz = 'M4 被复购';    fz = '02-模块\M4-被智能体复购.md';     ge = 'Modules';               te = 'M4 Repurchased';      fe = 'en\02-modules\m4-repurchase.md' },
+    @{ id = 'pt';     gz = '模块研究';   tz = '协议追踪';     fz = '02-模块\协议追踪.md';            ge = 'Modules';               te = 'Protocol Tracker';     fe = 'en\02-modules\protocol-tracker.md' },
+    @{ id = 'dom';    gz = '模块研究';   tz = 'M2 域名归属表'; fz = '02-模块\域名归属表.md';         ge = 'Modules';               te = 'M2 Domain Attribution'; fe = 'en\02-modules\domain-attribution.md' },
     @{ id = 'road';   gz = '管理与推进'; tz = '研究路线图';   fz = '00-管理\研究路线图.md';          ge = 'Management & Cadence';  te = 'Research Roadmap';    fe = 'en\00-management\roadmap.md' },
     @{ id = 'month';  gz = '管理与推进'; tz = '月度推进流程'; fz = '00-管理\月度推进流程.md';        ge = 'Management & Cadence';  te = 'Monthly Research Cycle'; fe = 'en\00-management\monthly-cycle.md' },
     @{ id = 'log';    gz = '管理与推进'; tz = '研究日志';     fz = '00-管理\研究日志.md';            ge = 'Management & Cadence';  te = 'Research Log';        fe = 'en\00-management\research-log.md' },

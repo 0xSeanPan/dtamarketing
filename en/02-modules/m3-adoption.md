@@ -1,6 +1,6 @@
 # M3 Adoption
 
-> Status: not started (first priority in Phase 2; monthly protocol intel logged) | Last updated: 2026-09-01 | Framework: `../01-framework/research-framework.md`
+> Status: in progress (first priority in Phase 2; protocol intel logged; `protocol-tracker.md` live) | Last updated: 2026-10-08 | Framework: `../01-framework/research-framework.md`
 
 ## 1. Definition
 
@@ -44,6 +44,15 @@ Decision-variable interviews: collect public agent product documentation, develo
 - [2026-09][B] Tencent Yuanbao × JD.com (2026-07-15): after a Yuanbao answer, one tap jumps to a JD mini-program for purchase across all categories — the second public Chinese "answer → transaction" loop (alongside Doubao × Douyin)
 - [2026-09][A] OpenAI (2026-08-21): ChatGPT's connector directory ranking now prioritizes connectors still actively used after installation — the first official disclosure of a directory ranking signal: usage retention > install count; direct evidence for M3-RQ2
 - [2026-09][A] MCP: current spec version 2026-07-28; official roadmap updated 2026-08-22 (agentic messaging primitives, HTTP transport unification and hardening, agent identity and enterprise security) — the tool ecosystem's center of gravity is shifting from "integration" to "identity and messaging primitives"
+- [2026-10][A] UCP Lodging: the Booking capability draft (`dev.ucp.lodging.booking`) merged into the protocol repo on 2026-09-25 — vertical expansion moves from roadmap to specification (see `protocol-tracker.md`)
+- [2026-10][A] Stripe Sessions: Shopify becomes the preferred catalog provider for the Agentic Commerce Suite; Meta partnership for native checkout inside Facebook ads (discovery + purchase in one flow) — ACS upgrades from "protocol integration" to "catalog + ad dual distribution"
+- [2026-10][A] Google UCP admission becomes gated: developer docs (updated 2026-10-05) specify waitlist + Google approval before going live; Etsy and Wayfair are the first live merchants; Gemini web supported, app coming — first movers get position
+- [2026-10][A] Claude Marketplace opened (2026-09-25): one storefront for plugins (MCP connectors / agent skills packaged), products, and service partners; the Claude connector directory lists 950+ MCP servers; MCP Apps render interactive UI inside the conversation; enterprise-managed auth — agent app directories have entered the platform storefront phase; direct object of study for M3-RQ2
+- [2026-10][A] MCP 2026 roadmap: the Tasks primitive (SEP-1686) shipped as an experimental feature; production use exposes lifecycle gaps (retry semantics, result-expiry policy) — messaging primitives moving from proposal to production iteration
+- [2026-10][B] Visa Intelligent Commerce Connect (live 2026-04): a network-, protocol-, and token-vault-agnostic gateway (supports Visa TAP, Stripe MPP, OpenAI ACP) — an interoperability layer over the protocols; merchants no longer need to pick a side; D3 selection cost falls
+- [2026-10][B] x402 ecosystem expansion: Block joins the foundation (40+ members; premier members include Visa, Mastercard, Amex, Stripe, Adyen, Fiserv, Google); Cloudflare Wallets enters on x402 (stablecoin balances + cloudflare.pay identity), but its no-domain-verification identity claim already draws brand-squatting and trust controversy (see `protocol-tracker.md`)
+- [2026-10][B] Snipp brand-rebate plugin (2026-09-14) listed in both the ChatGPT plugin directory and the Claude directory with no platform fees — a paid brand route into agent answers appears; new evidence for M3-RQ6 and opportunity A4
+- [2026-10][A] Qwen's start line moves earlier: on 2026-01-15 the Qwen app already integrated Taobao, Alipay, Taobao Flash Purchase, Fliggy, and Amap (food delivery, shopping, flight booking), with the full Taobao pipeline live by 2026-05-11 — the Chinese "answer → transaction" loop predates the international protocol camps
 
 ## 6. Link to Commercialization
 
@@ -51,7 +60,7 @@ M3 determines the skills needed to "productize capabilities as agent-invocable a
 
 ## 7. Next Steps
 
-1. Survey admission rules and data visibility of mainstream MCP directories (ChatGPT directory ranking logic is now officially disclosed — see conclusion 6; MCP Registry data visibility to be checked)
-2. Design a minimal A/B experiment on tool descriptions
-3. Start `protocol-tracker.md` (ACP / UCP / x402 / domestic moves) at the 2026-10 monthly cycle; this month's changes are already in the conclusions
-4. Research merchant-side admission paths for Chinese platforms: Yuanbao × JD, Qwen × Taobao (linked to decision-board D3)
+1. Research merchant-side admission paths for Chinese platforms: Yuanbao × JD, Qwen × Taobao (linked to decision-board D3)
+2. Test admission rules and data visibility of Claude Marketplace and the ChatGPT plugin directory (ranking logic is officially disclosed — see conclusions)
+3. Design a minimal A/B experiment on tool descriptions (M3-RQ2; start after the M2 baseline runs)
+4. Protocol timeline is live in `protocol-tracker.md` — maintain monthly

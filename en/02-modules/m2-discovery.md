@@ -1,6 +1,6 @@
 # M2 Discovery
 
-> Status: protocol frozen (`panel-question-set.md` v1.0); first baseline pending execution | Last updated: 2026-09-01 | Framework: `../01-framework/research-framework.md`
+> Status: protocol frozen (`panel-question-set.md` v1.0); first baseline pending execution (carried to 2026-10); domain attribution table v1.0 established | Last updated: 2026-10-08 | Framework: `../01-framework/research-framework.md`
 
 ## 1. Definition
 
@@ -19,7 +19,7 @@ State of the field: an academic framework already exists. The 2024 GEO paper (Pr
 
 ## 3. Method and Experiment Protocol (draft)
 
-Prompt-panel testing: construct 50–100 genuine purchase-intent questions for the target category (layered informational / comparative / transactional), executed monthly on a fixed platform set. Track: mention rate (does the answer name the entity), citation share (citations of the entity / all citations), cited-domain distribution, answer position (first recommendation / mixed / mention only). Follow the two-stage framework of arxiv 2604.25707 and separately score "citation absorption" — whether language, data, or structure actually enter the answer. Variance control and stability reporting follow arxiv 2603.08924. Execution details frozen in `panel-question-set.md` (category: robot vacuums; 60 questions; statistical definitions and change control).
+Prompt-panel testing: construct 50–100 genuine purchase-intent questions for the target category (layered informational / comparative / transactional), executed monthly on a fixed platform set. Track: mention rate (does the answer name the entity), citation share (citations of the entity / all citations), cited-domain distribution, answer position (first recommendation / mixed / mention only). Follow the two-stage framework of arxiv 2604.25707 and separately score "citation absorption" — whether language, data, or structure actually enter the answer. Variance control and stability reporting follow arxiv 2603.08924. Execution details frozen in `panel-question-set.md` (category: robot vacuums; 60 questions; statistical definitions and change control); the domain-attribution prerequisite for citation-share computation is established in `domain-attribution.md` (v1.0: T1–T9 official sites / platform commerce domains / vertical review sites + attribution rules).
 
 Crawler-log analysis: for owned or sample sites, track agent-crawler request volume and UA mix monthly, and correlate with panel results.
 
@@ -40,6 +40,11 @@ Crawler-log analysis: for owned or sample sites, track agent-crawler request vol
 - [2026-09][B] Goodie panel (41 B2B brand sites, 2025.08–2026.05): ChatGPT's share of B2B AI referrals fell 89.1%→62.6%; Claude 1.4%→18.5%, Gemini 2.4%→10.6%, Perplexity 3.1%→7.3% — AI referrals are multi-engine; single-platform optimization strategies depreciate faster
 - [2026-09][A] arxiv 2603.08924: single-run AI-visibility point estimates are sample estimates; repeated sampling plus confidence intervals are the minimum methodological bar; content changes can move citation share materially — this module's panel protocol is designed accordingly (variance sample of 6 questions × 3 runs)
 - [2026-09][A] arxiv 2604.25707 (geo-citation-lab, 602 prompts, 21,143 citations): citation behavior diverges by platform — Perplexity and Google cite broadly, ChatGPT cites fewer but with higher average influence — a reproducible reference gradient that the Chinese-language panel results will be compared against
+- [2026-10][A] Adobe (2026-08-19 report): AI-referral traffic to US retail sites +62% YoY in July 2026 (cumulative +1,219% from Oct 2024 through July); AI-visitor conversion ran 60% higher than non-AI (11th consecutive month); financial-services AI referrals bounced 27% less — the AI channel has upgraded from growth engine to a standing traffic component
+- [2026-10][B] Adobe: AI-referral multi-engining accelerated Q1→Q2 2026 — ChatGPT lost its top-referrer status at 122 retailers, Gemini doubled 16→32, Claude rose — single-platform strategies keep depreciating; empirical support for the M2-RQ1 platform-matrix requirement
+- [2026-10][B] Naming-effect quantification (ppc.land analysis of 27 ChatGPT sessions): in 21 sessions the first search named a brand the user never typed; named brands reached the answer 68.9% of the time vs 2.1% for unnamed ones; only 3.1% of 3,554 retrieved pages were cited — "prior naming into the answer" and "cited after retrieval" are two nearly independent gates; brand-mention strategy (content/community/directory) moves up in priority
+- [2026-10][B] Google AI Overviews citation-mechanism review (closing M2-RQ2 / H6): AI Overviews pulls from the regular Search index; indexability plus Featured-Snippet eligibility is the precondition (direct answer in the first sentence of a section, 40–60 words, no setup paragraph); no special markup file or schema unlocks it; FAQPage/HowTo/Article/Product/Organization (sameAs/knowsAbout)/Person schema correlates weakly (marginal parsing help); roughly 15 sources cited per result — H6's directional support solidifies; content structure and entity consistency beat speculative markup
+- [2026-10][B] GEO methodology, three new works: arxiv 2604.19113 FeatGEO (feature-level multi-objective optimization; document-level content properties beat isolated lexical edits), 2609.27845 QI-GEO (query-implied intent approximation; +15.9% objective), 2604.19516 MAGEO (multi-agent reusable strategies) — GEO optimization shifts from "rewriting text" to "restructuring document features and intent coverage"; updated methodological anchors for an owned-content business
 
 ## 6. Link to Commercialization
 
@@ -47,7 +52,7 @@ Citation share is this generation's "market share." If M2 yields a reproducible 
 
 ## 7. Next Steps
 
-1. Execute the first baseline: core 30 questions × 3 platforms (ChatGPT, Perplexity, Doubao) + variance sample of 6 questions × 3 runs, per `panel-question-set.md` Section 4, within 2026-09
-2. After the first round, set up the monthly record and summary templates (entity × layer × platform matrix) — the first item of the 2026-10 monthly cycle
-3. Build the domain attribution table: official sites / flagship stores / vertical review sites for T1–T9, a prerequisite for citation-share computation
-4. Re-verify Google's original documentation on AI Overviews citation rules (closing H6, M2-RQ2)
+1. Execute the first baseline: core 30 questions × 3 platforms (ChatGPT, Perplexity, Doubao) + variance sample of 6 questions × 3 runs, per `panel-question-set.md` Section 4 (carried to 2026-10)
+2. Domain attribution table established (`domain-attribution.md` v1.0, 2026-10-08): T1–T9 official sites / platform commerce domains / vertical review sites + attribution rules; next, review quarterly and fold in first-round unattributed domains
+3. Set up the monthly record and summary templates (entity × layer × platform matrix) — the first item of each subsequent monthly cycle
+4. Add a naming-effect check to the panel: in the 2026-10 first round, test "user names the brand first" vs "no brand named" question pairs to see whether the ppc.land 68.9% vs 2.1% gap reproduces on Chinese platforms
