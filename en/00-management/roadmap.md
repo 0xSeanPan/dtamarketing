@@ -9,7 +9,7 @@
 | Phase 0 Framework & baseline | Mid–late Aug 2026 (~2 weeks) | Knowledge base in place (done); first rounds of the M1 blind test and the M2 panel baseline | Wrapping up (protocols and the M2 domain-attribution table ready; first-round execution pending researcher verification of the gold standard, within 2026-10) |
 | Phase 1 Recognition & discovery deep dives | Sep 2026 (~4 weeks) | M1 and M2 move from "not started" to "reproducible method + first conclusions"; test H1, H3, H6 | Carried (methods and protocols ready; first-round conclusions merge into 2026-10) |
 | Phase 2 Adoption & repurchase deep dives | Oct 2026 (~4 weeks) | M3 and M4 methods and first conclusions; test H2, H4; protocol timeline takes shape | In progress (protocol timeline live; M3/M4 first conclusions logged) |
-| Phase 3 Commercialization mapping | Nov 2026 (~2–4 weeks) | First committed investments in the skill portfolio; first scoring and trade-off round on the opportunity matrix | Not started |
+| Phase 3 Commercialization mapping | Nov 2026 (~2–4 weeks) | First committed investments in the skill portfolio; first scoring and trade-off round on the opportunity matrix | Not started (first-round scoring completed ahead of schedule 2026-10-08: A2 conditionally above the "committed investment" line; trade-offs and the skill-investment list remain for Nov 2026) |
 | Continuous operation | Long term | Weekly intel scan, monthly panel retest, quarterly decision review | Not started |
 
 Rationale: M1/M2 first — both are self-testable, cheap, and aligned with where enterprise budgets already flow (AI visibility). M3/M4 depend on protocol and tool-ecosystem evolution; their research window sits later but lands exactly on the ACP/UCP ecosystem ramp-up in Phase 2.
