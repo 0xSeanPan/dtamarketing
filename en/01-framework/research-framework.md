@@ -1,6 +1,6 @@
 # Research Framework: From the Attention Economy to the Agent Economy
 
-> Last updated: 2026-08-16 | Status: v1.0 (Phase 0 deliverable; revise on major paradigm shifts)
+> Last updated: 2026-10-08 | Status: v1.0 (Phase 0 deliverable; revise on major paradigm shifts)
 
 ## 1. Core Thesis
 

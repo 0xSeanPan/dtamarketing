@@ -1,6 +1,6 @@
 # Agent Marketing Research
 
-> Created: 2026-08-16 | Current phase: Phase 0 (framework & baseline) | Nature: long-running rolling research knowledge base (bilingual) | Reading layer: `wiki/index.html` (toggle 中文 / English in the sidebar) | Chinese master: root directory of the project
+> Created: 2026-08-16 | Last updated: 2026-10-08 | Current phase: Phase 0 (framework & baseline) | Nature: long-running rolling research knowledge base (bilingual) | Reading layer: `wiki/index.html` (toggle 中文 / English in the sidebar) | Chinese master: root directory of the project
 
 ## Mission
 
