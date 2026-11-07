@@ -1,6 +1,6 @@
 # M1 Recognition
 
-> Status: protocol frozen (`blind-test-protocol.md` v1.0); first baseline pending execution (carried to 2026-10) | Last updated: 2026-10-08 | Framework: `../01-framework/research-framework.md`
+> Status: protocol frozen (`blind-test-protocol.md` v1.0); first baseline still not executed (Phase 0 gate blocker, deferred for 3 consecutive months) | Last updated: 2026-11-07 | Framework: `../01-framework/research-framework.md`
 
 ## 1. Definition
 
@@ -34,6 +34,8 @@ Variable control: measure the baseline first, then intervene with one content va
 
 ## 5. Current Conclusions
 
+- [2026-11][A] Adobe Citation Readability Score (published 2026-10-29; 1T+ visits and 100M SKUs): the average US retail homepage has only 63% of its content effectively readable and citable by AI; Electronics scores 79% (category pages 79%, customer-service pages 78%), Grocery 55%, General Merchandise homepages 40% — "explanatory content" (specs, buying guides, FAQs, return policies) scores highest, navigation/promotion-heavy layouts lowest. First large-scale quantitative anchor, directly supporting M1-RQ2 (content form affects recognition)
+- [2026-11][B] No new first-party llms.txt statement from any platform this period; the M1-RQ3 verdict stands (2026-10 conclusion remains valid). The topic is now a low-frequency watch item
 - [2026-09][B] llms.txt adoption: ~5.6–5.9% of the top 10,000 sites deploy a valid file (two independent tallies concur); third-party analysis finds no significant correlation with AI citations
 - [2026-09][A] Google's official clarification (2026-07): llms.txt is not a Google Search ranking factor and confers no visibility or ranking benefit
 - [2026-10][B] Platform-stance summary (M1-RQ3 adjudication complete): OpenAI (crawler docs recommend robots.txt only, never reference the file), Anthropic (publishes its own but makes no commitment to consuming others'), Perplexity, and Microsoft have all announced no support; Google confirms it is not a ranking factor yet concedes Perplexity/Claude do fetch it and Cursor/GitHub Copilot genuinely use it for developer docs (which is why Stripe/Cloudflare/Anthropic publish their own) — verdict: llms.txt has no visibility effect on AI-search citations, but is practically useful for "navigation once an agent is already on-site" and developer-documentation contexts; it is an optional enhancement to machine-parseable summaries (M1-RQ2) rather than an entry condition
@@ -44,7 +46,7 @@ Recognition is the foundation of every external promise. If M1 shows that struct
 
 ## 7. Next Steps
 
-1. Execute the first baseline: core 15 questions × 5 platforms (retrieval mode) + 15 questions × 2 platforms (parameter mode), per the execution matrix in `blind-test-protocol.md` Section 5 (carried to 2026-10)
-2. Verify the gold-standard fact sheets before execution (`blind-test-protocol.md` Section 3; researcher confirms line by line)
-3. M1-RQ3 adjudication is complete (see Section 5); fold the verdict into the recognition baseline design — llms.txt optional, structural content primary
+1. **Top priority (gate blocker)**: execute the first baseline — core 15 questions × 5 platforms (retrieval mode) + 15 questions × 2 platforms (parameter mode), per the execution matrix in `blind-test-protocol.md` Section 5. Originally due 2026-09; not executed this month either
+2. Verify the gold-standard fact sheets before execution (`blind-test-protocol.md` Section 3; researcher confirms line by line) — the only prerequisite to starting the baseline
+3. Align the "parseability" dimension of the M1 scoring sheet with the Adobe Citation Readability Score benchmark (63%) — calibration only; do not alter the frozen prompt set
 4. When an own-business entity appears, add it as E4 (slot reserved) and retest with the same structure

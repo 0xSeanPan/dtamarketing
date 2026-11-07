@@ -1,6 +1,6 @@
 # M4 Repurchase and Trust
 
-> Status: in progress (second priority in Phase 2; protocol intel logged; trust-infrastructure case study open) | Last updated: 2026-10-08 | Framework: `../01-framework/research-framework.md`
+> Status: in progress (second priority in Phase 2; protocol intel logged; trust-infrastructure map initial) | Last updated: 2026-11-07 | Framework: `../01-framework/research-framework.md`
 
 ## 1. Definition
 
@@ -38,12 +38,13 @@ Corpus-offset experiment: inject one negative review into a controlled corpus an
 ## 5. Current Conclusions
 
 - [2026-09][B] HUMAN Security (2026-07): agent-browser session mix — Perplexity Comet 47.13%, Claude in Chrome 24%, Atlas 15.5%, ChatGPT Agent 6.1%; 76% of agent activity hits product and search routes — "agents as shopping visitors" is now a measurable, routine traffic class
-- [2026-09][A] x402 moved under Linux Foundation governance with 75.41M transactions per month (see `m3-adoption.md` conclusions) — machine payments graduated from protocol experiment to scaled operation; neutral foundation governance signals long-term neutrality for the repurchase infrastructure
+- [2026-11][B] x402: neutral governance holds, commercial scale disproven (measurement correction; see `protocol-tracker.md`) — 57 foundation members and an executive director in place, a long-term neutrality signal for repurchase infrastructure; but October 2026 saw only 5.1M transactions / about $274K, and more than half of the 196M lifetime transactions came from late-2025 PING token farming. **The judgment "machine payments are already at scale" is withdrawn**; real commercial settlement remains early
 - [2026-09][A] UCP v2026-08-25 builds in 3DS2 payment security and structured shopping constraints — the trust layer is being embedded in the protocol itself rather than bolted on (M4-RQ4)
 - [2026-09][A] Adobe: AI-visitor conversion runs 42% higher than non-AI (2026-03; see M2 conclusions) — an AI-channel customer-quality premium; on the repurchase side, agent-referred traffic converts above the channel average
 - [2026-10][B] Cloudflare Wallets (x402 ecosystem): stablecoin balances plus a cloudflare.pay identity for AI agents, but the identity claim has no domain-verification mechanism and already draws brand-squatting and trust controversy — a live case of the agent-identity authenticity gap; research window opens for M4-RQ4 (trust infrastructure) (see `protocol-tracker.md`)
-- [2026-10][A] Adobe (2026-08-19): AI-visitor conversion runs 60% higher than non-AI (11th consecutive month) — the AI-channel customer-quality premium keeps widening; repurchase-side baseline updated: "agent-referred = high-intent traffic"
-- [2026-10][B] Machine payments on dual parallel tracks: x402 (Linux Foundation governance, 40+ members) coexists with a Visa/Stripe/OpenAI multi-protocol gateway (Visa Intelligent Commerce Connect) — payment-track neutrality lowers vendor lock-in; M4-RQ2 (lock-in form) watch item: lock-in shifts from "protocol binding" to "fulfillment records and trust scores"
+- [2026-11][A] Adobe September reading (2026-10-29): AI-visitor conversion runs 90% higher than non-AI (the 12th consecutive month of improvement; it was 9% lower in August 2025), and revenue per visit 83% higher — the AI-channel customer-quality premium keeps widening; repurchase-side baseline: "agent-referred = high-intent traffic"
+- [2026-11][B] Agent identity and trust infrastructure takes shape: OpenA2A published drafts of an Agent Identity Protocol and an Agent Trust Protocol (2026-09; verifiable behavioral trust scores, portable signed credentials, Merkle-log revocation); two IETF drafts appeared (`draft-fane-opena2a-aip-01`, `draft-klrc-aiagent-auth-03`) — trust is moving from "platform-local authentication" to "cross-platform verifiable identity," and the M4-RQ4 solution map now covers MCP authorization, Claude managed auth, x402 wallet identity, and OpenA2A
+- [2026-11][B] Machine payments on dual parallel tracks: x402 (Linux Foundation governance, 57 members) coexists with a Visa/Stripe/OpenAI multi-protocol gateway (Visa Intelligent Commerce Connect) — payment-track neutrality lowers vendor lock-in; M4-RQ2 (lock-in form) watch item: lock-in shifts from "protocol binding" to "fulfillment records and trust scores"
 
 ## 6. Link to Commercialization
 
@@ -51,7 +52,7 @@ M4 answers whether the business compounds. If repurchase is driven mainly by ful
 
 ## 7. Next Steps
 
-1. Map agent-identity and trust-scoring schemes (starting points: the Cloudflare Wallets squatting controversy, the x402 identity gap, Claude enterprise-managed auth)
+1. Write up the agent-identity and trust-scoring map (five pieces are now in hand: MCP authorization, Claude managed auth, x402 wallet identity, OpenA2A AIP/ATP, Visa TAP) — next, produce a comparison table and decide which layer owns "portable trust assets"
 2. Read the Stripe agentic-commerce engineering retrospective closely; extract a citable failure-mode list
-3. Collect public data and interviews for ACP merchants (Etsy, URBN) and UCP live merchants (Wayfair, Etsy)
-4. Monthly: track x402/UCP merchant-side settlement and trust readings, plus Adobe and HUMAN quarterly updates
+3. Collect public data and interviews for ACP merchants (Etsy, URBN) and UCP live merchants (Wayfair, Etsy) — no new public data this period (gap)
+4. Monthly: track real x402 settlement (switch to Fireblocks/agenteconomy.to), Adobe monthly updates; the Cloudflare Wallets squatting controversy has no first-party follow-up — keep it as an open item
